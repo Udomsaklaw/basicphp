@@ -26,6 +26,7 @@ if (!empty($_POST['submit'])) {
 
     if ($query) {
         $msg = "<div class='alert alert-success'>Add member success</div>";
+        echo '<meta http-equiv="refresh" content="1;url=read_member.php">';
     } else {
         $msg = "<div class='alert alert-success'>Add member faill/div>";
     }

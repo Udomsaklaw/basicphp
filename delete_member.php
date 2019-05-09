@@ -9,6 +9,7 @@ $query = mysqli_query($connect, $sql);
 
 if ($query) {
     echo "<div class='alert alert-success'>Delete member success</div>";
+    echo '<meta http-equiv="refresh" content="1;url=read_member.php">';
 } else {
-    echo "<div class='alert alert-success'>Delete member faill/div>";
+    echo "<div class='alert alert-success'> member faill/div>";
 }
